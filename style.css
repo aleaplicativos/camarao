@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#🍤 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.4);
+  z-index: 9999;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: -webkit-grabbing !important;
+  cursor: grabbing !important;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#🔺 {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
